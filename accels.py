@@ -12,12 +12,14 @@ def ok():
     # HERE ARE THE ACTUAL REMAPPINGS
     # usage:  set_accels_for_action( detailed_action_name,  [desiredShortcut] )
     app.set_accels_for_action( "win.new-tab", ["<super>t"] )
-    app.set_accels_for_action( "win.up", ["<super>Up"] )
+    app.set_accels_for_action( "win.up", ["BackSpace"] )
     app.set_accels_for_action( "win.close-current-view", ["<super>w"] )
     app.set_accels_for_action( "win.tab-previous", ["<super>bracketleft"] )
     app.set_accels_for_action( "win.tab-next", ["<super>bracketright"] )
     app.set_accels_for_action( "view.copy", ["<super>c"] )
     app.set_accels_for_action( "view.paste", ["<super>v"] )
+    #app.set_accels_for_action( "Terminal", ["F12"] ) # replaced with xdotool shift+f10 + e
+    #app.set_accels_for_action( "open.folder.local", ["F12"] ) # replaced with xdotool shift+f10 + e
 
     # this section is to determine the gtk "detailed_action_name"
     # i.e. the first argument to the set_accels function above
