@@ -5,9 +5,12 @@ Brings back the ability to add basic custom shortcuts to Nautilus (Gnome "Files"
 Custom keyboard shortcuts (a.k.a. "accels") were previously a feature in Nautilus but this was discontinued in 3.15.4:
 [(release notes)](https://gitlab.gnome.org/GNOME/nautilus/-/blob/master/NEWS)
 
-This is accomplished with nautilus-python via a single python file.   TBH, I don't really understand how it works, github user [riclc](https://github.com/riclc) wrote the original "nautilus_backspace" repo which is setup for a single, specific shortcut and I just used that as a template and added print statements so I could figure out the other shortcuts.
+This is accomplished with nautilus-python via a single python file.   
 
 (As a former mac user, I prefer super based shortcuts so, by default,  this is configured to open and navigate tabs with super+t, super+], etc. though it can be changed to suit any needs as long as the shortcut already exists in nautilus.)
+
+
+Major credit to github user [riclc](https://github.com/riclc) who wrote the original "nautilus_backspace" repo which is setup for a single, specific shortcut and I just used that as a template and added print statements so I could figure out the other shortcuts. (this repo was a fork for a long time but I've detached it so more users can find it)
 
 
 Installation
