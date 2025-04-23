@@ -24,7 +24,7 @@ Configuration
 ----------------------------
 note: you only need edit the `ok` method for configuration
 
-1) View `accels.py` and uncomment/edit any `print` statements with get_actions_for_acce
+1) View `accels.py` and uncomment/edit any `print` statements with get_actions_for_accel
 
 2) Launch nautilus from command line so you can view output
 

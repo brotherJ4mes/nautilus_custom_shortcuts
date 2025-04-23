@@ -18,6 +18,7 @@ def ok():
     app.set_accels_for_action( "win.tab-next", ["<super>bracketright"] )
     app.set_accels_for_action( "view.copy", ["<super>c"] )
     app.set_accels_for_action( "view.paste", ["<super>v"] )
+    app.set_accels_for_action( "app.show-hide-sidebar", ["<ctrl>b"] )
     #app.set_accels_for_action( "Terminal", ["F12"] ) # replaced with xdotool shift+f10 + e
     #app.set_accels_for_action( "open.folder.local", ["F12"] ) # replaced with xdotool shift+f10 + e
 
@@ -29,7 +30,7 @@ def ok():
     #print(app.get_actions_for_accel("<ctrl>Prior"))
     #print(app.get_actions_for_accel("<ctrl>Next"))
     #print(app.get_actions_for_accel("<ctrl>c"))
-    #print(app.get_actions_for_accel("<ctrl>v"))
+    #print(app.get_actions_for_accel("F9"))
 
 class BackspaceBack(GObject.GObject, Nautilus.LocationWidgetProvider):
     def __init__(self):
