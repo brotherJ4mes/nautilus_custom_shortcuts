@@ -19,6 +19,7 @@ def ok():
     app.set_accels_for_action( "view.copy", ["<super>c"] )
     app.set_accels_for_action( "view.paste", ["<super>v"] )
     app.set_accels_for_action( "app.show-hide-sidebar", ["<ctrl>b"] )
+
     #app.set_accels_for_action( "Terminal", ["F12"] ) # replaced with xdotool shift+f10 + e
     #app.set_accels_for_action( "open.folder.local", ["F12"] ) # replaced with xdotool shift+f10 + e
 
